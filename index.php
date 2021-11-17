@@ -14,8 +14,8 @@ else {
 	$uc = "acc";
 }
 
-include('vues/nav.php');
 
+include('vues/nav.php');
 
 switch($uc) {
 	case 'acc':{
@@ -23,4 +23,5 @@ switch($uc) {
 		break;
 	}
 }
+include('vues/footer.php');
 ?>
